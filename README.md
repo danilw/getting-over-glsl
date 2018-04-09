@@ -3,7 +3,7 @@
 
 **play** [live](https://danilw.github.io/GLSL-howto/goglsl/goglsl.html)
 
-# Building
+### Building
 
 1. clone this [nanogui wasm](https://github.com/danilw/nanogui-GLES-wasm)
 2. put file from *nanogui_mod* folder, "glutil.cpp" to *nanogui-GLES-wasm* and "glutil.h" to *nanogui-GLES-wasm/include/nanogui*

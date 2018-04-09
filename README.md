@@ -13,5 +13,5 @@
 em++ -DNANOVG_GLES3_IMPLEMENTATION -DGLFW_INCLUDE_ES3 -DGLFW_INCLUDE_GLEXT -DNANOGUI_LINUX -Iinclude/ -Iext/nanovg/ -Iext/eigen/ nanogui.bc agame2.cpp --std=c++11 -O3 -lGL -lGLU -lm -lGLEW -s USE_GLFW=3 -s FULL_ES3=1 -s USE_WEBGL2=1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 -o build/goglsl.html --shell-file shell_minimal.html --no-heap-copy --preload-file  ./textures --preload-file ./shaders
 ```
 
-# Screenshot
+### Screenshot
 ![goglsl](https://danilw.github.io/GLSL-howto/goglsl/goglsl.png)
